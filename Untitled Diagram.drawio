@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T12:30:00.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="newerEtag" version="24.6.4" type="device">
-  <diagram name="Core Functionalities of CryptoQuestor" id="uniqueCryptoCoreID">
+<mxfile host="app.diagrams.net" modified="2024-07-10T13:00:00.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="newerCryptoEtag" version="24.6.4" type="device">
+  <diagram name="CryptoQuestor Core System Design" id="CryptoSystemDesignID">
     <mxGraphModel dx="1420" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <!-- Blockchain Interaction -->
-        <mxCell id="2" value="Blockchain Interaction: Handles real-time blockchain data fetching and smart contract operations." style="shape=process;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="2" value="Blockchain Interaction: Real-time data handling, smart contract operations, and transaction validation." style="verticalAlign=middle;align=center;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
           <mxGeometry x="50" y="50" width="300" height="80" as="geometry" />
         </mxCell>
-        <!-- Data Processing and Analysis -->
-        <mxCell id="3" value="Data Processing and Analysis: Aggregates and processes blockchain data to extract actionable insights and perform trend analysis." style="shape=process;fillColor=#FFE6CC;" parent="1" vertex="1">
-          <mxGeometry x="50" y="160" width="300" height="80" as="geometry" />
+        <!-- Data Processing -->
+        <mxCell id="3" value="Data Processing: Aggregate, analyze, and derive insights from blockchain data. Predictive analytics for trading." style="verticalAlign=middle;align=center;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
+          <mxGeometry x="50" y="150" width="300" height="80" as="geometry" />
         </mxCell>
-        <!-- Trading Engine -->
-        <mxCell id="4" value="Trading Engine: Manages order matching and trade executions, leveraging algorithmic strategies and user-defined rules." style="shape=process;fillColor=#D5E8D4;" parent="1" vertex="1">
-          <mxGeometry x="50" y="270" width="300" height="80" as="geometry" />
+        <!-- Trading Algorithms -->
+        <mxCell id="4" value="Trading Algorithms: Develop and implement trading strategies based on user preferences and market conditions." style="verticalAlign=middle;align=center;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
+          <mxGeometry x="50" y="250" width="300" height="80" as="geometry" />
         </mxCell>
-        <!-- User Interface and Experience -->
-        <mxCell id="5" value="User Interface and Experience: Provides users with a responsive interface for monitoring and trading, integrating real-time data visualization." style="shape=process;fillColor=#FFF2CC;" parent="1" vertex="1">
-          <mxGeometry x="50" y="380" width="300" height="80" as="geometry" />
+        <!-- User Interface -->
+        <mxCell id="5" value="User Interface: User-friendly interface for monitoring markets, managing portfolios, and executing trades." style="verticalAlign=middle;align=center;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
+          <mxGeometry x="50" y="350" width="300" height="80" as="geometry" />
         </mxCell>
         <!-- Security and Compliance -->
-        <mxCell id="6" value="Security and Compliance: Ensures the platform adheres to crypto regulations and implements robust security measures." style="shape=process;fillColor=#DAE8FC;" parent="1" vertex="1">
-          <mxGeometry x="50" y="490" width="300" height="80" as="geometry" />
+        <mxCell id="6" value="Security and Compliance: Ensure the platform meets all regulatory standards and implements state-of-the-art security measures." style="verticalAlign=middle;align=center;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
+          <mxGeometry x="50" y="450" width="300" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
